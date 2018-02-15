@@ -1,0 +1,8 @@
+{
+	"module":"chronos",
+	"about":"An extension to the Time Module",
+	"author":"Scott Rhine",
+	"version":"0.2.3",
+	"support":"N/A",
+	"depends":["std"]
+}
