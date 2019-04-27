@@ -8,8 +8,8 @@ Class Time Extension
 	
 	Private
 	
-	Const days:=New String[]( "Sun","Mon","Tue","Wed","Thu","Fri","Sat" )
-	Const daysFull:=New String[]( "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday" )
+	Const days:=New String[]( "Mon","Tue","Wed","Thu","Fri","Sat","Sun" )
+	Const daysFull:=New String[]( "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday" )
 	
 	Const months:=New String[]( "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" )
 	Const monthsFull:=New String[]( "January","February","March","April","May","June","July","August","September","October","November","December" )
