@@ -8,7 +8,7 @@ Using std..
 Function Main()
 	
 	Local t := New Time()
-	Print t.WeekDayAbbr(-7)
+	Print t.WeekDayAbbr(0)
 	
 	For Local i:Int = 0 Until 9
 		Local t := New Time()

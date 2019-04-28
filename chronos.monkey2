@@ -31,25 +31,25 @@ Class Time Extension
 		Return ss	
 	End
 
-	#rem monkeydoc Returns shortened Week day as a string (Min: 1 Max: 7) (Sun-Mon)
+	#rem monkeydoc Returns shortened Week day as a string (Min: 0 Max: 6) (Sun-Mon)
 	#end
 	Method WeekDayAbbr:String(weekday:Int)
 		Return days[ Abs(weekday Mod 7) ]
 	End
 	
-	#rem monkeydoc Returns full Week day as a string (1-7) (Sunday-Monday)
+	#rem monkeydoc Returns full Week day as a string (Min: 0 Max: 6)(Sunday-Monday)
 	#end
 	Method WeekDayName:String(weekday:Int)
 		Return daysFull[ Abs(weekday Mod 7) ]
 	End
 
-	#rem monkeydoc Get current Month shortened as a string (1-12) (Jan-Dec)
+	#rem monkeydoc Get current Month shortened as a string (Min: 0 Max: 11) (Jan-Dec)
 	#end
 	Method MonthAbbr:String(month:Int)
 		Return months[ Abs(month Mod 12) ]
 	End
 	
-	#rem monkeydoc Returns full Month name as string (1-12) (January-December)
+	#rem monkeydoc Returns full Month name as string (Min: 0 Max: 11) (January-December)
 	#end
 	Method MonthName:String(month:Int)
 		Return monthsFull[ Abs(month Mod 12) ]
