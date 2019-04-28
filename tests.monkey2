@@ -7,14 +7,18 @@ Using std..
 
 Function Main()
 	
-	For Local i:Int = 1 Until 9
+	Local t := New Time()
+	Print t.WeekDayAbbr(-7)
+	
+	For Local i:Int = 0 Until 9
 		Local t := New Time()
 		Print t.WeekDayAbbr(i)
 	End
 	
-	For Local i:Int = 1 Until 14
+	For Local i:Int = 0 Until 14
 		Local t := New Time()
 		Print t.MonthName(i)
 	End
+	
 	
 End
